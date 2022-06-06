@@ -2,6 +2,7 @@
 <xsd:schema xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
             xmlns:xsd="http://www.w3.org/2001/XMLSchema"
             targetNamespace="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+            xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn"
             elementFormDefault="qualified">
 
 
@@ -1017,6 +1018,7 @@ these attributes specify the characteristics of the table.</comment>
 		    <xsd:attribute name="border" type="xsd:integer"/>
 		    <xsd:attribute name="cellspacing" type="xsd:integer"/>
 		    <xsd:attribute name="cellpadding" type="xsd:integer"/>
+		    <xsd:attribute ref="uk:widths" use="optional"/>
 	  </xsd:attributeGroup>
 
 	  <xsd:attributeGroup name="originalText">
@@ -5240,7 +5242,7 @@ the element ref is an inline element containing a legal reference</comment>
 			      <xsd:complexContent>
 				        <xsd:extension base="inlinereq">
 					          <xsd:attributeGroup ref="link"/>
-					          <xsd:attributeGroup ref="uk:refAttributes" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn" />
+					          <xsd:attributeGroup ref="uk:refAttributes"/>
 				        </xsd:extension>
 			      </xsd:complexContent>
 		    </xsd:complexType>
@@ -8074,7 +8076,7 @@ The element note is a metadata element containing the text of the footnote and e
 		    </xsd:complexType>
 	  </xsd:element>
 
-	  <xsd:element name="proprietary" type="uk:proprietaryType" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+	  <xsd:element name="proprietary" type="uk:proprietaryType">
 		    <xsd:annotation>
 			      <xsd:documentation>
 			         <type>Element</type>

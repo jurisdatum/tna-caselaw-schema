@@ -501,4 +501,14 @@
 	</xs:restriction>
 </xs:simpleType>
 
+<!-- tables -->
+
+<xs:attribute name="widths" type="xs:string">
+	<xs:annotation>
+		<xs:documentation>
+			<p>A whitespace-separated list of column widths, e.g., "1.5in 3in"</p>
+		</xs:documentation>
+	</xs:annotation>
+</xs:attribute>
+
 </xs:schema>

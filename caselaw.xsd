@@ -408,6 +408,14 @@
 				</xs:documentation>
 			</xs:annotation>
 		</xs:enumeration>
+		<xs:enumeration value="UKFTT-GRC">
+			<xs:annotation>
+				<xs:documentation>
+					<name>First-tier Tribunal (General Regulatory Chamber)</name>
+					<link>https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber</link>
+				</xs:documentation>
+			</xs:annotation>
+		</xs:enumeration>
 		<xs:enumeration value="ET">
 			<xs:annotation>
 				<xs:documentation>

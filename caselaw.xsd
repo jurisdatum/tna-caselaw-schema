@@ -181,6 +181,15 @@
 				<xs:documentation>
 					<name>Queen's Bench Division of the High Court</name>
 					<link>https://www.gov.uk/courts-tribunals/queens-bench-division-of-the-high-court</link>
+					<note>The same court as EWHC-KBD, used when the monarch is a queen</note>
+				</xs:documentation>
+			</xs:annotation>
+		</xs:enumeration>
+		<xs:enumeration value="EWHC-KBD">
+			<xs:annotation>
+				<xs:documentation>
+					<name>Kings's Bench Division of the High Court</name>
+					<note>The same court as EWHC-QBD, used when the monarch is a king</note>
 				</xs:documentation>
 			</xs:annotation>
 		</xs:enumeration>
@@ -205,6 +214,15 @@
 				<xs:documentation>
 					<name>Administrative Court</name>
 					<link>https://www.gov.uk/courts-tribunals/administrative-court</link>
+					<note>The same court as EWHC-KBD-Admin, used when the monarch is a queen</note>
+				</xs:documentation>
+			</xs:annotation>
+		</xs:enumeration>
+		<xs:enumeration value="EWHC-KBD-Admin">
+			<xs:annotation>
+				<xs:documentation>
+					<name>Administrative Court</name>
+					<note>The same court as EWHC-QBD-Admin, used when the monarch is a king</note>
 				</xs:documentation>
 			</xs:annotation>
 		</xs:enumeration>
@@ -213,6 +231,15 @@
 				<xs:documentation>
 					<name>Planning Court</name>
 					<link>https://www.gov.uk/courts-tribunals/planning-court</link>
+					<note>The same court as EWHC-KBD-Planning, used when the monarch is a queen</note>
+				</xs:documentation>
+			</xs:annotation>
+		</xs:enumeration>
+		<xs:enumeration value="EWHC-KBD-Planning">
+			<xs:annotation>
+				<xs:documentation>
+					<name>Planning Court</name>
+					<note>The same court as EWHC-QBD-Planning, used when the monarch is a king</note>
 				</xs:documentation>
 			</xs:annotation>
 		</xs:enumeration>
@@ -221,6 +248,15 @@
 				<xs:documentation>
 					<name>The Business and Property Courts</name>
 					<link>https://www.gov.uk/courts-tribunals/the-business-and-property-courts</link>
+					<note>The same court as EWHC-KBD-BusinessAndProperty, used when the monarch is a queen</note>
+				</xs:documentation>
+			</xs:annotation>
+		</xs:enumeration>
+		<xs:enumeration value="EWHC-KBD-BusinessAndProperty">
+			<xs:annotation>
+				<xs:documentation>
+					<name>The Business and Property Courts</name>
+					<note>The same court as EWHC-QBD-BusinessAndProperty, used when the monarch is a king</note>
 				</xs:documentation>
 			</xs:annotation>
 		</xs:enumeration>
@@ -229,6 +265,15 @@
 				<xs:documentation>
 					<name>Commercial Court</name>
 					<link>https://www.gov.uk/courts-tribunals/commercial-court</link>
+					<note>The same court as EWHC-KBD-Commercial, used when the monarch is a queen</note>
+				</xs:documentation>
+			</xs:annotation>
+		</xs:enumeration>
+		<xs:enumeration value="EWHC-KBD-Commercial">
+			<xs:annotation>
+				<xs:documentation>
+					<name>Commercial Court</name>
+					<note>The same court as EWHC-QBD-Commercial, used when the monarch is a king</note>
 				</xs:documentation>
 			</xs:annotation>
 		</xs:enumeration>
@@ -237,6 +282,15 @@
 				<xs:documentation>
 					<name>Admiralty Court</name>
 					<link>https://www.gov.uk/courts-tribunals/admiralty-court</link>
+					<note>The same court as EWHC-KBD-Admiralty, used when the monarch is a queen</note>
+				</xs:documentation>
+			</xs:annotation>
+		</xs:enumeration>
+		<xs:enumeration value="EWHC-KBD-Admiralty">
+			<xs:annotation>
+				<xs:documentation>
+					<name>Admiralty Court</name>
+					<note>The same court as EWHC-QBD-Admiralty, used when the monarch is a king</note>
 				</xs:documentation>
 			</xs:annotation>
 		</xs:enumeration>
@@ -245,6 +299,15 @@
 				<xs:documentation>
 					<name>Technology and Construction Court</name>
 					<link>https://www.gov.uk/courts-tribunals/technology-and-construction-court</link>
+					<note>The same court as EWHC-KBD-TCC, used when the monarch is a queen</note>
+				</xs:documentation>
+			</xs:annotation>
+		</xs:enumeration>
+		<xs:enumeration value="EWHC-KBD-TCC">
+			<xs:annotation>
+				<xs:documentation>
+					<name>Technology and Construction Court</name>
+					<note>The same court as EWHC-QBD-TCC, used when the monarch is a king</note>
 				</xs:documentation>
 			</xs:annotation>
 		</xs:enumeration>
@@ -253,6 +316,15 @@
 				<xs:documentation>
 					<name>The Financial List</name>
 					<link>https://www.gov.uk/courts-tribunals/the-financial-list</link>
+					<note>The same court as EWHC-KBD-Commercial-Financial, used when the monarch is a queen</note>
+				</xs:documentation>
+			</xs:annotation>
+		</xs:enumeration>
+		<xs:enumeration value="EWHC-KBD-Commercial-Financial">
+			<xs:annotation>
+				<xs:documentation>
+					<name>The Financial List</name>
+					<note>The same court as EWHC-QBD-Commercial-Financial, used when the monarch is a king</note>
 				</xs:documentation>
 			</xs:annotation>
 		</xs:enumeration>
@@ -261,6 +333,15 @@
 				<xs:documentation>
 					<name>Circuit Commercial Court</name>
 					<link>https://www.gov.uk/courts-tribunals/commercial-circuit-court</link>
+					<note>The same court as EWHC-KBD-Commercial-Circuit, used when the monarch is a queen</note>
+				</xs:documentation>
+			</xs:annotation>
+		</xs:enumeration>
+		<xs:enumeration value="EWHC-KBD-Commercial-Circuit">
+			<xs:annotation>
+				<xs:documentation>
+					<name>Circuit Commercial Court</name>
+					<note>The same court as EWHC-QBD-Commercial-Circuit, used when the monarch is a king</note>
 				</xs:documentation>
 			</xs:annotation>
 		</xs:enumeration>
@@ -347,7 +428,7 @@
 		<xs:enumeration value="EWCOP">
 			<xs:annotation>
 				<xs:documentation>
-					<p>Court of Protection</p>
+					<name>Court of Protection</name>
 					<link>https://www.gov.uk/courts-tribunals/court-of-protection</link>
 				</xs:documentation>
 			</xs:annotation>

@@ -11,14 +11,14 @@
 			<p>A restriction of the LegalDocML "proprietary" metadata element</p>
 		</xs:documentation>
 	</xs:annotation>
-	<xs:sequence>
-		<xs:element ref="court"/>
-		<xs:element ref="year"/>
-		<xs:element ref="number"/>
-		<xs:element ref="cite"/>
+	<xs:all>
+		<xs:element ref="court" minOccurs="0"/>
+		<xs:element ref="year" minOccurs="0"/>
+		<xs:element ref="number" minOccurs="0"/>
+		<xs:element ref="cite" minOccurs="0"/>
 		<xs:element ref="parser"/>
 		<xs:element ref="hash"/>
-	</xs:sequence>
+	</xs:all>
 	<xs:attributeGroup ref="akn:source"/>
 </xs:complexType>
 
